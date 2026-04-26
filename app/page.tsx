@@ -33,9 +33,16 @@ function getCountdown(): Countdown {
 }
 
 export default function HomePage() {
-  const [countdown, setCountdown] = useState<Countdown>(() => getCountdown());
+  const [countdown, setCountdown] = useState<Countdown>({
+    days: "00",
+    hours: "00",
+    minutes: "00",
+    seconds: "00"
+  });
 
   useEffect(() => {
+    setCountdown(getCountdown());
+
     const interval = window.setInterval(() => {
       setCountdown(getCountdown());
     }, 1000);
