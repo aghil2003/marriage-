@@ -174,6 +174,7 @@ export default function HomePage() {
           <span className="pin">📍</span> Guruvayur Temple
         </p>
         <p className="detail-note">Wedding Ceremony: 10:30 AM | Lunch: 12:00 PM</p>
+        <p className="detail-note">Reception at Ittiachen Memorial Kalyana Mandapam</p>
         <a
           className="btn"
           href="https://www.google.com/maps/search/?api=1&query=Ittiachen+Memorial+Kalyana+Mandapam"
