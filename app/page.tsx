@@ -124,7 +124,6 @@ export default function HomePage() {
             Sunday, 03 May 2026
           </div>
 
-          <p className="venue">Guruvayur Temple</p>
           <p className="invite-note">Save the date and celebrate love with us.</p>
         </section>
       </section>
@@ -172,7 +171,7 @@ export default function HomePage() {
           <img src="/img/images.jpg" alt="Temple sketch illustration" />
         </figure>
         <p className="location-line">
-          <span className="pin">📍</span> Kunnamkulam
+          <span className="pin">📍</span> Guruvayur Temple
         </p>
         <p className="detail-note">Wedding Ceremony: 10:30 AM | Lunch: 12:00 PM</p>
         <a
