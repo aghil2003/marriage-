@@ -3,7 +3,7 @@ import "../styles.css";
 
 export const metadata: Metadata = {
   title: "Save The Date | Anagha & Vishnu",
-  description: "Wedding invitation website",
+  description: "Wedding invitation",
   icons: {
     icon: "/icon.svg"
   }
